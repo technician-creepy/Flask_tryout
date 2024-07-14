@@ -2,7 +2,7 @@ from flask import Flask
 app=Flask(__name__)
 @app.route('/')
 def home():
-    return <p>Hello world!</p>
+    return "<p>Dit is het huiswerk van Patrick Kox voor de NHA opleiding: 'programmeren voor Beginners'</p>"
 
 '''
 De reactie van de terminal op get commando 'git checkout -b main is':
